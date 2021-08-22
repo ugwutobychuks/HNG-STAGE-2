@@ -7,16 +7,17 @@ section{
     /* position: absolute; */
     margin: auto;
     border-style:groove;
-    max-width: 900px;
-    /* background-color: beige; */
+    max-width: 1500px;
+    background-color: beige;
     padding: 15px;
-    border: 3px solid #73AD21;
+    border: 3px solid #7e346e;
     margin-top: 50px;
     margin-bottom: 50px;
     
 }
 .cont{
     margin-left: 200;
+    text-align: center;
 }
 
 
@@ -25,10 +26,12 @@ h1{
     text-align: center;
     text-decoration: underline;
     padding-bottom: 15px;
+  
 }
 .smmary {
     overflow: hidden;
     text-align: center;
+    padding-top: 15px;
     /* padding-bottom: 15px; */
 }
 /* h5:before, */
@@ -56,4 +59,15 @@ h5:after {
      text-align: center;
  }
 
- 
+ img {
+    border-radius: 50%;
+    
+  }
+#zuri{
+    border: 5px solid #555;
+
+}
+
+ body{
+    background-color: #111;
+ }
